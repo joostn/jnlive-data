@@ -1,0 +1,216 @@
+{
+	"focusedpart" : 0,
+	"instruments" : 
+	[
+		{
+			"lv2uri" : "http://gareus.org/oss/lv2/b_synth",
+			"name" : "setBfree DSP Tonewheel Organ",
+			"shared" : true
+		},
+		{
+			"lv2uri" : "https://github.com/asb2m10/dexed",
+			"name" : "Dexed",
+			"shared" : false
+		},
+		{
+			"lv2uri" : "https://github.com/brummer10/Fluida.lv2",
+			"name" : "Fluida",
+			"shared" : false
+		},
+		{
+			"lv2uri" : "http://sfztools.github.io/sfizz",
+			"name" : "sfizz",
+			"shared" : false
+		},
+		{
+			"lv2uri" : "http://yoshimi.sourceforge.net/lv2_plugin",
+			"name" : "Yoshimi",
+			"shared" : false
+		},
+		{
+			"lv2uri" : "https://thewavewarden.com/odin2",
+			"name" : "Odin2",
+			"shared" : false
+		},
+		{
+			"lv2uri" : "http://drobilla.net/plugins/mda/EPiano",
+			"name" : "MDA ePiano",
+			"shared" : false
+		},
+		{
+			"lv2uri" : "https://surge-synthesizer.github.io/lv2/surge-xt",
+			"name" : "Surge XT",
+			"shared" : false
+		}
+	],
+	"parts" : 
+	[
+		{
+			"amplitudefactor" : 1.0,
+			"instrumentindex" : 2,
+			"midichannelforsharedinstruments" : 0,
+			"name" : "Upper",
+			"presetindex" : null
+		},
+		{
+			"amplitudefactor" : 0.61417323350906372,
+			"instrumentindex" : null,
+			"midichannelforsharedinstruments" : 1,
+			"name" : "Lower",
+			"presetindex" : null
+		}
+	],
+	"quickpresets" : 
+	[
+		{
+			"instrumentindex" : 0,
+			"name" : "Orgel",
+			"subdir" : "state_XFuN9r"
+		},
+		{
+			"instrumentindex" : 1,
+			"name" : "ARP2600",
+			"subdir" : "state_czM4lk"
+		},
+		{
+			"instrumentindex" : 1,
+			"name" : "FM clav",
+			"subdir" : "state_Z3n3je"
+		},
+		null,
+		{
+			"instrumentindex" : 4,
+			"name" : "yoshimi 1",
+			"subdir" : "state_DYpWIe"
+		},
+		{
+			"instrumentindex" : 4,
+			"name" : "Ahh",
+			"subdir" : "state_AaQKUH"
+		},
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		{
+			"instrumentindex" : 4,
+			"name" : "Solo synth 1",
+			"subdir" : "state_Ithrz2"
+		},
+		{
+			"instrumentindex" : 4,
+			"name" : "Analog brass",
+			"subdir" : "state_PIRyEg"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "Joost odin lead",
+			"subdir" : "state_qewUGC"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "Piano pad",
+			"subdir" : "state_Kf45Ai"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "odin reset",
+			"subdir" : "state_npi8vO"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "bassline",
+			"subdir" : "state_0j3SmT"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "ppad3",
+			"subdir" : "state_fAQGgC"
+		},
+		{
+			"instrumentindex" : 4,
+			"name" : "Joost reed lead",
+			"subdir" : "state_nemgTI"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "Brass pad",
+			"subdir" : "state_gHXzBY"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "Dist Guit",
+			"subdir" : "state_B8kIg2"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "FM clav",
+			"subdir" : "state_WIRKFf"
+		},
+		{
+			"instrumentindex" : 3,
+			"name" : "SFZ Rhodes",
+			"subdir" : "state_FGWVUC"
+		},
+		{
+			"instrumentindex" : 2,
+			"name" : "Bechstein",
+			"subdir" : "state_iZzy6t"
+		},
+		{
+			"instrumentindex" : 2,
+			"name" : "Custom grand",
+			"subdir" : "state_OVYAco"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Banter",
+			"subdir" : "state_BUaKtQ"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Butter",
+			"subdir" : "state_o4BpgR"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Toto brass",
+			"subdir" : "state_p8bRi2"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Cyber flute",
+			"subdir" : "state_bkoiFa"
+		}
+	],
+	"reverb" : 
+	{
+		"mixlevel" : 0.40999999642372131,
+		"pluginuri" : "urn:dragonfly:room",
+		"presetdir" : "state_T7B0KQ",
+		"showgui" : false
+	},
+	"showui" : false
+}

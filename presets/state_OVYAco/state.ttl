@@ -1,0 +1,51 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://github.com/brummer10/Fluida.lv2> ;
+	state:state [
+		atom:Path "/home/joostn/Downloads/SP_Custom_Grand_1.sf2" ;
+		<https://github.com/brummer10/Fluida.lv2#instrument> "0"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#reverb_level> "0.69999999"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#reverb_width> "10.0"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#reverb_damp> "0.40000001"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#reverb_size> "0.60000002"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#reverb_on> "1"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#chorus_type> "0"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#chorus_depth> "3.0"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#chorus_speed> "0.30000001"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#chorus_lev> "3.0"^^xsd:float ;
+		<https://github.com/brummer10/Fluida.lv2#chorus_voices> "3"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#chorus_on> "1"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#channel_pressure> "0"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#channel> "0"^^xsd:int ;
+		<https://github.com/brummer10/Fluida.lv2#channel_list> [
+			a atom:Vector ;
+			atom:childType atom:Int ;
+			rdf:value (
+				"0"^^xsd:int
+				"1"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+				"0"^^xsd:int
+			)
+		] ;
+		<https://github.com/brummer10/Fluida.lv2#gain> "0.2"^^xsd:float
+	] .

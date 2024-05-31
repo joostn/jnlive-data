@@ -1,0 +1,589 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://github.com/asb2m10/dexed> ;
+	lv2:port [
+		lv2:symbol "algorithm" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "cutoff" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "feedback" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "lfo_am_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "lfo_delay" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "lfo_key_sync" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "lfo_pm_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "lfo_speed" ;
+		pset:value 0.353535
+	] , [
+		lv2:symbol "lfo_wave" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "lv2_freewheel" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "master_tune_adj" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "middle_c" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op1_a_mod_sens_" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_break_point" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_eg_level_1" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op1_eg_level_2" ;
+		pset:value 0.92929298
+	] , [
+		lv2:symbol "op1_eg_level_3" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_eg_level_4" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_eg_rate_1" ;
+		pset:value 0.70707101
+	] , [
+		lv2:symbol "op1_eg_rate_2" ;
+		pset:value 0.40404001
+	] , [
+		lv2:symbol "op1_eg_rate_3" ;
+		pset:value 0.49494901
+	] , [
+		lv2:symbol "op1_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op1_f_coarse" ;
+		pset:value 0.032258
+	] , [
+		lv2:symbol "op1_f_fine" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_key_velocity" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_l_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_l_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_osc_detune" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op1_output_level" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op1_r_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_r_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_rate_scaling" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op1_switch" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op2_a_mod_sens_" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_break_point" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_eg_level_1" ;
+		pset:value 0.50505
+	] , [
+		lv2:symbol "op2_eg_level_2" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op2_eg_level_3" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_eg_level_4" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_eg_rate_1" ;
+		pset:value 0.252525
+	] , [
+		lv2:symbol "op2_eg_rate_2" ;
+		pset:value 0.646465
+	] , [
+		lv2:symbol "op2_eg_rate_3" ;
+		pset:value 0.49494901
+	] , [
+		lv2:symbol "op2_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op2_f_coarse" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_f_fine" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_key_velocity" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_l_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_l_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_osc_detune" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op2_output_level" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op2_r_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_r_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_rate_scaling" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op2_switch" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op3_a_mod_sens_" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_break_point" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_eg_level_1" ;
+		pset:value 0.444444
+	] , [
+		lv2:symbol "op3_eg_level_2" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op3_eg_level_3" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_eg_level_4" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_eg_rate_1" ;
+		pset:value 0.15151501
+	] , [
+		lv2:symbol "op3_eg_rate_2" ;
+		pset:value 0.646465
+	] , [
+		lv2:symbol "op3_eg_rate_3" ;
+		pset:value 0.49494901
+	] , [
+		lv2:symbol "op3_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op3_f_coarse" ;
+		pset:value 0.064516
+	] , [
+		lv2:symbol "op3_f_fine" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_key_velocity" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_l_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_l_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_osc_detune" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op3_output_level" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op3_r_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_r_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_rate_scaling" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op3_switch" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op4_a_mod_sens_" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_break_point" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_eg_level_1" ;
+		pset:value 0.46464601
+	] , [
+		lv2:symbol "op4_eg_level_2" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op4_eg_level_3" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_eg_level_4" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_eg_rate_1" ;
+		pset:value 0.131313
+	] , [
+		lv2:symbol "op4_eg_rate_2" ;
+		pset:value 0.646465
+	] , [
+		lv2:symbol "op4_eg_rate_3" ;
+		pset:value 0.49494901
+	] , [
+		lv2:symbol "op4_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op4_f_coarse" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_f_fine" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_key_velocity" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_l_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_l_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_osc_detune" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op4_output_level" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op4_r_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_r_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_rate_scaling" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op4_switch" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op5_a_mod_sens_" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_break_point" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_eg_level_1" ;
+		pset:value 0.46464601
+	] , [
+		lv2:symbol "op5_eg_level_2" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op5_eg_level_3" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_eg_level_4" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_eg_rate_1" ;
+		pset:value 0.10101
+	] , [
+		lv2:symbol "op5_eg_rate_2" ;
+		pset:value 0.646465
+	] , [
+		lv2:symbol "op5_eg_rate_3" ;
+		pset:value 0.49494901
+	] , [
+		lv2:symbol "op5_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op5_f_coarse" ;
+		pset:value 0.064516
+	] , [
+		lv2:symbol "op5_f_fine" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_key_velocity" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_l_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_l_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_osc_detune" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op5_output_level" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op5_r_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_r_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_rate_scaling" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op5_switch" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op6_a_mod_sens_" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_break_point" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_eg_level_1" ;
+		pset:value 0.45454499
+	] , [
+		lv2:symbol "op6_eg_level_2" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op6_eg_level_3" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_eg_level_4" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_eg_rate_1" ;
+		pset:value 0.070707
+	] , [
+		lv2:symbol "op6_eg_rate_2" ;
+		pset:value 0.646465
+	] , [
+		lv2:symbol "op6_eg_rate_3" ;
+		pset:value 0.45454499
+	] , [
+		lv2:symbol "op6_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op6_f_coarse" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_f_fine" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_key_velocity" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_l_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_l_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_osc_detune" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "op6_output_level" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "op6_r_key_scale" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_r_scale_depth" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_rate_scaling" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "op6_switch" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "osc_key_sync" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "output" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "p_mode_sens_" ;
+		pset:value 0.42857099
+	] , [
+		lv2:symbol "pitch_eg_level_1" ;
+		pset:value 0.50505
+	] , [
+		lv2:symbol "pitch_eg_level_2" ;
+		pset:value 0.50505
+	] , [
+		lv2:symbol "pitch_eg_level_3" ;
+		pset:value 0.50505
+	] , [
+		lv2:symbol "pitch_eg_level_4" ;
+		pset:value 0.50505
+	] , [
+		lv2:symbol "pitch_eg_rate_1" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "pitch_eg_rate_2" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "pitch_eg_rate_3" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "pitch_eg_rate_4" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "resonance" ;
+		pset:value 0.0
+	] ;
+	state:state [
+		<urn:juce:stateBinary> """VkMyIbEXAAA8ZGV4ZWRTdGF0ZSBjdXRvZmY9IjEiIHJlc289IjAiIGdhaW49IjEiIGN1cnJlbnRQ
+cm9ncmFtPSIwIiBtb25vTW9kZT0iMCIgZW5naW5lVHlwZT0iMSIgbWFzdGVyVHVuZT0iMCIgb3BT
+d2l0Y2g9IjExMTExMSIgd2hlZWxNb2Q9IjAgMCAwIDAiIGZvb3RNb2Q9IjAgMCAwIDAiIGJyZWF0
+aE1vZD0iMCAwIDAgMCIgYWZ0ZXJ0b3VjaE1vZD0iMCAwIDAgMCIgYWN0aXZlRmlsZUNhcnRyaWRn
+ZT0iL2hvbWUvam9vc3RuLy5sb2NhbC9zaGFyZS9EaWdpdGFsU3VidXJiYW4vRGV4ZWQvQ2FydHJp
+ZGdlcy9TeW5wcmV6Rk0vU3lucHJlekZNXzI2LnN5eCI+PGRleGVkQmxvYiBiYXNlNjQ6c3lzZXg9
+IjQxMDQudk9ELkkuQi5pNHhSOGZFS1kuZlguRC5BZi4uVFQudlhsclRPWHdSRi5IRC5nUC5OLlhr
+Li5MbElLMENWcmpBLlVBdkJEZkUuZy4uLmlnelI4TFZWaEEuVy4uLkF2LmZYLi52WGxyVE9Yd1JG
+LkhGLi5QLk4uLi5FLkxGUksweVhZSUYuaUEuLkRmQy5pSS4uaU0xWGlJaUx4SGlBTTN3RS4uLmJq
+TDBTTDhESGZMRFNBWTBYQkEuRmRBLi4udkMuLkRmUExMRkNRN0VJV3Z3WEZBLi56Li4uLjNFR1VZ
+Li5LTTFFbUQwWC4uLi4uLi4uYi53WEIudld4SFNMaU1GLi5uQy5rLnZCLlRFRC43VVNndnZYYUEu
+LnpmLi5DdkJCVVEuLmk3VUdrRHpYLi4uLi4uLi5pUXdYQi52WGlNMVh5LmlMeEhmQ1lEQi4uakJG
+U1FtYjAwRkhIRWxidk0xTWRYeFRzVEIuaEEuLi5mRS5YZ0MuMmZTRnZIbFhEQWZYLi4uLmZNLldI
+LnZNeGpnSWhJRlEuSEYuLi4uTi52Q0EuYkNOWS5pWGhRRC5nLi5ELmZDLmJRLi5pY2lHdExVS2su
+ZlguLi4uSEx2WGYudk0zakFMaElGUS5IRi4uLi5CLjdEQS5QMFdld2lMeEhpTEU3Lk8uLi4uSHZQ
+UHJVV2FvNFZjc0FCSGlNMVguTFZWNi4uLi4uLi42TGZPTGJ4WGlNRi5pTTFYLi4uLi4uUE5CVGlC
+LkxsS1dUeFhMQS4uLi4uLi5EUi5pSS4uaU0xWC5MMVhpQWZQLlRCLkFiUE5iLnZYaU1GLmlNMVgu
+dkMuUy5QWC43Q0IuVFNHV2p4WFpBLi5pLi5CLmp6QWJRLi5pTTFYaUlpTHhIaUJLekFQdlB2RWpy
+Vlp4RTFab0lXWGYuUlN5andVZnMwSlZReS5xTFBTTGpETEl6elZUOHhYY2pFLjViUkJCTERCU2dQ
+QklJeEV5UGpOWi5mS0xueC5tLndVM2Z6Umd2d0xpSUUuLi5oREZMUFFMSEZCSW5qUGJMeVgyekEu
+cjdmTE92Q0JDQS5BSzRnRnZMRlUuLmZFUWZ2LmN3dlhIai4uLi4uLkZYZkFGdmZDT0xQQS4uQUZB
+UVVQS0VpTWYua1NPc1RSRDd3WGlBRi5lTHZGQ0RELitYd0xGWUFCaUxGV1dBLi4uLi4udy5mVkJI
+aU50TGlMVVVFLi5meUMydlBSLkxsLng3Q0UwenhYZEVGLi4uLi4uREcuQVFmTElvUU1ZM1RPTEEu
+Li4uLi5BQS5VREhDTXlqU01pNEUuLi5DLlkuZkYuLmwueDdBT2VJVkl6SGlMQ2IuSGpEQS5uREFS
+Z2dUWGZYMGFvTVZZTmZETFFUeUtvLi4uLi4uLi5nLlVGSHZHVVB4T2lvVVUuLi4uLi4uTERMRkFB
+bnZEb3YuTDVIVUIuLi4uLi5FQ2JJZi5lUHdYZUxsV2cwQi4uLi4udnd2WEIudkRaVFNGdGZ5UXQu
+Li4uLi5OTlhDQi43QUUwanlYZEVGLi4uLi4uLi4uaUEuLi52eVc3TDFMeEhDQU9QQklaSC5MWER6
+UEU0RFFmWDBTSU16WGlBUFQuTEYuLi4uLi4uLk5MTGxEQ0wxWC4uMEJpNEFELi4uLi5mQ0JpZ2gu
+aU1GLlBBdlguLi4uLi4uLjNQdlhMcnZYaUFQU0ZMRi4uLi4uLi4uTi5EbEUuTDFYLmZELmlBLi4u
+Li4uLmZDQ2l3UEJpTUYuQUF2WC4uLi4uLi4uM3Z2WEcudklrVHhEeC5mTHhIQUJCb3ZYYlhCTEFJ
+VVJBNFRRZkxDSGZMRkVuUHdYVUEwVy4uZkIuZkNHUG9BLmlJQ0pUTGxWVThFLi4uLi4zLnZSOS52
+WGRmQkVpb1VVZUEuLkouLk5ILkVBLmJpUWRQd1haVTBXLi5mQi5mQy5lQS4uaU0xWGlNMVhpb0Uu
+LlQuLjNmdlJCLi5PaU0xWGlNMVguLi4uLi4uTkhMVi4uTDFYaU1sTHhIaUxRemZHLmZCLlBmd1BN
+a0RISWtUUmYuQkhpUXpGYS4uLi5mRC4uLi4uRU13V0wuZlUuUHZHZ2cwWC4uLi4uLmZMLkxsLi4z
+RC4uTHhYYllFLi4uLi4ubnlDaVkuLmlNeE1pTUYuLi5QSGlBLi4zLi4uQXZ3WHlIUkJpSXhCLlhD
+Li4udk5QTEZILkxGLlJYeFhVWUQuLi4uLi56Q0dCbkMuaVEwVzdMQ014SHkuT0hCLi5MMS5MUHph
+cklWZHQuRWJ2YzFYT1lnVmlBLi4uLi4uLi4uTi5MVi5hTEZUVm4wWGlNRi4uLi4uLi53LmRJLi5p
+QWtFWk0xWGlBLi4uLi4uZkEuT0EudlhQWWlUaU0xWC4uLi4uLi5WQ1BrQS5MbE1WbjBYLi4uLi4u
+Li4uZi4uS3dQLmlZaUVaTUYuLi4uLi4uLi4zTHZWTC52UlBzRE94SGlMeFB2Q2kuLi4uLkRDT0ky
+WWc0VlE0VTFiYmdrSE5MelhQQXZYaS52SC56Q0NSSUEuQkFrQ0NNRlcuWEMuLi4uLjhQZ1dGLlBV
+MzNDSmk0Qi4uWEIuRy5mS0RUME0uZ2tUUkx6WGJBLi4uLi4uLnZDQ2lJLi5Cc3pEMExsVTA3aUou
+Ny4uNlB3WEIuLlY3ZkFMaWNFLi4uLi4uLlBJLkxsQS5MMVhpTWxMeEhpTEgzUEsuLi4uZ3YuVUV3
+VFFDRXpUVFVqVFlERkpSd3lYLi4uLi4uLi5DLnZYSExQR2dnaFQ3TEYuLi4uLi4udkQuTEZCLjNR
+WG5IRU9pQS4uLi4uLi5yQS5jZy4ubkRGSlJ3eVguLi4uLi4uLnEudlhGLmZMaWdoVDduRS4uLi4u
+Li52TC5MbC4uWFRObkgwWFpBLi4uLi4uLnJDLmlBLi5pTTFYaUlpTHhIeUdOM0EuLi5QTExEVFJm
+UFZadGNGYWtBUk5mempHaU1sTi5uLi4uUC5MRExWLllyZkdZdndYaUEuLkouLi5EZkNBYmcuLlpi
+REVtTDFYLi4uLi4uLkFIUVBXeVQuQkpQUUppTUYuLi4uLi4uLk5FemtDLkh3WFRQeFhpQS4uLi4u
+Li4uVEFaUS4uYkxGRWlMMVhRLi4uLi4uLjNUdlhMLmZYaHNET3hIaUx4LncuaUxsQkguQ0NMWXpT
+ZkwwVUVVRFRmM0VOWGJTV2IuLi4uLi4uLmpELlFBQS5pQS4uLkxWTy4uZkwuLi4uMnZnUkQuZlZ2
+VHdMaWNFLi5uQy4uTFBRYkhFQy5mRVhvM1FWQUEuLi4uLi4uWEUuaUlBLmlRQS4uTEZPLi5QSi4u
+di4rLlBVLi52WDlEd0xpTVZJLmZRTkxMLk4uSEYuLkx5UEV3aUx4SGlMT0wuRi4uLi5uZndTU01U
+UFJBaFBBTTBUQXdTQytMMVhpQXZJLi4uLkNQZldDTFZQZnp2T2k4a1YuckEuRnZ2TkRyekxTbkJK
+S2ZqVFRNRS52bnZDLjN5QkFZLi5ZOFVIeGpTVmlBLkguNy4ucWJmU0IuUFBJd2lMRTBVVi5iQi5L
+LnZCRy5FQS5EelBnSFRXZ01GLmkuLkIuRHYuZkkuLmVMeFhpSWlMeEhTREYzQS4uLlBCalhEYTBR
+V1lmYkdkZkhpTC4uaC5pOEVYLi4uLi4uLi4uSC5DLm5CLmNQdlhlTUYubS52Qy4uRy5GWS5Iei52
+RUNMMVdlQS4uLi4uLm5mZlJELmZKLmp3Smk4MFcuLi4uLi4uYi5IVkIuREMuYWJ2WGU4RS4uLi4u
+Li4uLkxRUEZwLnZJbEwxV2VBLi4uLi4uOS52WEEueFhpTTFYeEhpTHhyd0NkLnZCLi5CRkxFalBP
+QUJIZi5CSGZMVkpabnZYaEEuLk8uLi5ESERDTDQuLmkwakZHTGxYLi52Qy4uLkFSZnZXTi52WG9u
+eEFpSUYuLjcuLi5QZkhEbmtDLlhTU1p2d1hoQS4uTy4uLkRuQ0JhSS4uaWtoRkdMbFguLnZDLi4u
+QTVmUFhCLnZYTW9nSmlJRi4uNy4uLlBmTkRqREouTDFYaU1sTHhIaUxHZi5HLi4uLmZmd1BIa2pR
+c0xEUkFZREhia1FDYUxWWGZBLk9iREIuQS5QUy5ELldmandGaUlWWC5YQy5XLlAuLkhFLkF2MEgu
+bndYZDBFLi4uLi4uREVBTkEuLnJmQUVpTGxWWkEuLi4uLi5SZ3ZYLi4uV01EZ0ZoSVZYLmp4LkMu
+UEIuN0QuLnpCRlRMeFhpTUYuLi5QQS5ILkNpQS4uaU0xWGlNaUx4SFMuTy5CSkguLkxYSGpib2NG
+WnpNRWN4UXlYd3ZBQ2FJRS4uLi4uLi52Ui4uVUE3TEZKbC52VlJBLi4uLi4uLnJDLjZmUEhpd2hM
+VXJrVC4uLi4uLmYuelEuVkQudlhkTGhKaXdFLi4uLi4uLnZOTExsLmlNMURUanZYV0EuLjQudlFC
+bkNCSkkuLmlnUkhsTEZXLi4uLi4uLi41LnZYQi52WHhIaUx4SGlMeGZ2Q1kuZkJpZ0JGQ0VEU1lB
+MFRPQUJIZi4xVERJelhaQS4uLi4uLi5uQ0M5SEIuZjBVU0JNbFYuLi4uLi4uLjVmUFNKLi5YU01q
+UGlvRS4uLi4uLi5mTi4zakIuLlZXR0l6WFpBLi4uLi4uLm5DQ1VvLi5mMDBQQndpVi4uZkwuYkEu
+OFB2U0ouLlhoM2hQaW9FLi4uLi4uLmZPTExsLi4zMFBld2lMeEhpTFE3ZkhnLi4uWHZ2VU84RFFm
+SERTT016UmV3dlFiTEYuZi4uLi4uLi5oQVBTRnJUTmZiakdpQS5ILi4uLi4uZlAuTEZBLkhGQ0d3
+d1guLkIuLi4uLi5IQy5LUXZSd0R4UWRMRi5mLi4uLi4uLngudlhKLmZYTGJER2lBLkguLi4uLi5m
+Ui4zREFLOFVIRzR3WC4uQi4uLi4uLm5DLmVBLi5pTTFYaUlpTHhIQ0EudkFELi4uSExiVVFTUVVT
+STRUS0pnelhwenhNaUVGLi4uLi4uLlBLVEhFRi5MMVhtLnZYaUEuLnRIQS5DUEZGMUhBLlFjQkcw
+blVOLi4uLi5ILi53UXZSQS52WFkuaEdpNEQuLi4uLi4uUEJIUEQuLlhURi5IeVguLi4uMC52SC5q
+LkNQQS4uT0F4QytMRlMuLi5PLnYuLm5RdlhCLi4uLm5ET3hIaUx4N3YuZnJ4QS5mQ0ZTNFZYdklU
+WHlNbWV6ekVQaHd5WENRQy50LmYuTC5EQmlnUS42REIuN0xsSy4uLi4uckIuMy4uTEIuZkxZakFP
+RU1WWC52aUJKLnYuLlhBQS5EaUlLMGlUcmZBLi4uLi4uLkcuRkkuLnlUaU8xdkVPLi4uLi4uLi43
+ZlBTSDMuT0dJVFBSc3pXLi4uLi4uLk5ISGwuLkwxWGlNbEx4SGlMUDdmR1cuLi5mZkFTSTB6U05F
+VFJSVURIUk13SWJMbFZpQXZJLkxGQTMuLlNOLi5UT2p2Rmk4RVcuWEQuci4uTi5uREIuM2pFSzN3
+WGFVa1YuLi4uRGZDLlJJLi5SWVNJcUxsVi4udkkudkFBM2Z2WElQeFhlUGdEaTBrVGlBLi4uLi5O
+LlBrLi5MVkxnbnhYWkEuLm0uLkdEZkNCVGtmSGlNMVhpSWlMeEh5QU5IQi5SLi5GWHZUY2lrV1J0
+UTBUcWtHT3N6QS5pc2tRLjNoQ1QuZlMuRERMLkxsSVQudlhmVUIudFhmU09qREFiSS4uRkVnRmRM
+MVhpQWZLQi4uQ09RUVhCLi5Pc3pBLmlzRUwuM2hDcC52Sy5EREouTGxJVC52WGZNRi50WHZBQ2pC
+QWJJLi5GRWdGY0wxWGlBZktCLi5DdVBRWEFIeVguLnZYeEhpTHhMdkFpM0JLQ0RBQ1ZBQkhmLkJI
+Zi5CSFZNVk5pTTFYLi52WG1UQ0UuZkNCVkFSLlFja0VpTUZXLkxGLi43Li43di5XRi5QVFdBeFhp
+d0UuaW9BT04uLk5IWGtBLjN6VVZUeVhiQS4uaGouLi5YLkdpSS4uYWt3STdMbFUuLi4uLi5CLjUu
+d1hELmZSVXNnUWk4RS4uLi4uLi4uT0xMbC4uTDFYaU1sTHhIaUxHZnZILi4uLmZ2LlRJTXpSR1VV
+UlRFalRLd2pCZkxGV2FBLi4uLi4uUEFmVEIuUFJJb3ZNaTRrVy4uLi4uLi5SLjNEQS5IalJKemhY
+aElGLmhBLi4uLkMuRVEuLkE4ZkIwTDFYLi4uLi4uLi5mQXZYRC4uUXQuUk9pd2tWLlguLkIuLkIu
+UGsuLkhFTkpQaVhoUUIuaEEuLi5qQy5pSS4uVDgwVzdIaUx4SFMuT0hCLkUuUE5YSGpUQU0wVGZM
+RVVSRVNWQm9CSmlJbEwuTEIuLi5QTmJiakJUa1VIVGZ4WGJRRS5PLmZDLkQuRzNIZkxZRUJFbkxG
+V1RBUEQubi4ud0F2U0QuUFZnUEFKaXdFVS4uLi4uLmZOLlhVLkJUekp6bnhYTUVDLnJqZkRDakMu
+TVEuLkVFQkVuTEZXVEEuLi4uLi41LnZYQXZnV0M4RU94SGlMeDMuLmxEQi4uZi5DeWttYXNMR2Nr
+VUZhZkhsWGhFd1hpTUYuQi4uLkpmQy5LSS4uaE1oWHNMRi4uLmYuLi5mQjQudlhBN2dYZ0hGQWlN
+MVguSC4uLm4uTi5IRUEuSGxLaHN4WC4uLi5CLi4uSmpCLmlFLi5oTWhYUEwxWGlBZkwuZkMuMy52
+WEguZlhmSFZLaUEuLi5ILi4ublBULkxWLkVJbFhoSWxMeEhpTEQzdkguMy4ud2ZnUEV3RFNBQVJN
+Zi5CSGkwRE4uM2pTLi5QSlgudi4rLmZYNy52WEFBLkJSQUMuLi5CLi4uUE8uTGxBLm5rUC5Ia1R2
+Li4uLi52QS5qQy5HNC4uaVVEUTRMRlQuLi4uLi4uLjQudlhCLnZSdFB4RGljRS4uLi4uRUx2SlQ3
+akEuTDFYaU0xWGlNMVhxTEYuQ3JDQi5ILi5kUXpXN0hpTHhIQ0JPLi4uaUF2ZFhIVVh0UTFhczR6
+YXpNMlhjSEZKaUEuLi43Li5OUHZQQ3ZEQlFMQ010LnhYVkEuLk8uLi5ESHYuaUkuQ2lzeFhtTEYu
+Li52Qy5EQ0E1RC5USmZnR2QzZ0dpc2dXLjcuLi5QZmIuemouSkwxSmljeFguREYuTy5QTERyQy5H
+SVBBeUxCSW5MbFVmQXZDLi4uQTREZlFCLnZYaU0xWHhIaUx4RHdBQy52QUZnQ0lmLkJIZi54VU9J
+a1RZOHk4IiBiYXNlNjQ6cHJvZ3JhbT0iMTYxLmk0eFI4ZkVLWS5mWC5ELi5BLi4uLi5FLkouLkFp
+WXhSOGZFS1kuZlAuREIuQS4uLi5YRS5BLnZBaVl4UjhmRUtZLlBVLnIuLkEuLi4uREIuLi52Qmln
+elI4TFZWaEEuVy4uLi5BLi4uLkhGLi4uZkFpWXhSOGZFS1kuZlguLi4uQS4uLi4uLi5KLnZBaWd6
+UjhMVlZoQXZYLi4uLkEuLi4uTEYuQS52QWlNMVhpSWlMeEhpQUVEZkdXLi4uLi52QWpMMFNMOERI
+ZkxEU0FZRS4uLi4uLi4uIi8+PC9kZXhlZFN0YXRlPgA="""^^xsd:base64Binary
+	] .
