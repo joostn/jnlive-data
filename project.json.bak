@@ -1,5 +1,5 @@
 {
-	"focusedpart" : 1,
+	"focusedpart" : 0,
 	"instruments" : 
 	[
 		{
@@ -41,41 +41,34 @@
 			"lv2uri" : "https://surge-synthesizer.github.io/lv2/surge-xt",
 			"name" : "Surge XT",
 			"shared" : false
-		},
-		{
-			"lv2uri" : "https://www.modartt.com/lv2/Pianoteq8",
-			"name" : "Pianoteq 8",
-			"shared" : false
 		}
 	],
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.66834384202957153,
-			"instrumentindex" : 6,
+			"amplitudefactor" : 1.0,
+			"instrumentindex" : 49,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
+			"presetindex" : null,
 			"quickpresets" : 
 			[
 				0,
-				22,
+				2,
 				32,
-				49,
-				6,
-				3,
-				7
+				49
 			]
 		},
 		{
-			"amplitudefactor" : 0.68911367654800415,
-			"instrumentindex" : 43,
+			"amplitudefactor" : 0.61417323350906372,
+			"instrumentindex" : 0,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
+			"presetindex" : null,
 			"quickpresets" : 
 			[
 				0,
-				44,
-				43
+				44
 			]
 		}
 	],
@@ -84,7 +77,7 @@
 		{
 			"instrumentindex" : 0,
 			"name" : "Orgel",
-			"subdir" : "state_cvUtWQ"
+			"subdir" : "state_XFuN9r"
 		},
 		{
 			"instrumentindex" : 1,
@@ -96,11 +89,7 @@
 			"name" : "FM clav",
 			"subdir" : "state_Z3n3je"
 		},
-		{
-			"instrumentindex" : 8,
-			"name" : "Pteq Bechstein",
-			"subdir" : "state_iy7iu9"
-		},
+		null,
 		{
 			"instrumentindex" : 4,
 			"name" : "yoshimi 1",
@@ -111,16 +100,6 @@
 			"name" : "Ahh",
 			"subdir" : "state_AaQKUH"
 		},
-		{
-			"instrumentindex" : 7,
-			"name" : "Brassy",
-			"subdir" : "state_10DprQ"
-		},
-		{
-			"instrumentindex" : 8,
-			"name" : "Pteq Rhodes",
-			"subdir" : "state_WW60qm"
-		},
 		null,
 		null,
 		null,
@@ -135,11 +114,9 @@
 		null,
 		null,
 		null,
-		{
-			"instrumentindex" : 5,
-			"name" : "Odin clav",
-			"subdir" : "state_gH51r8"
-		},
+		null,
+		null,
+		null,
 		null,
 		null,
 		null,
@@ -237,12 +214,12 @@
 		{
 			"instrumentindex" : 7,
 			"name" : "Cyber flute",
-			"subdir" : "state_6TRsQH"
+			"subdir" : "state_bkoiFa"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.023713739588856697,
+		"mixlevel" : 0.0301468875259161,
 		"pluginuri" : "https://github.com/michaelwillis/dragonfly-reverb",
 		"presetdir" : "state_RHipLN",
 		"showgui" : false
