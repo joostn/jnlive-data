@@ -52,9 +52,10 @@
 	[
 		{
 			"amplitudefactor" : 0.66834384202957153,
-			"instrumentindex" : 6,
+			"instrumentindex" : 8,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
+			"presetindex" : null,
 			"quickpresets" : 
 			[
 				0,
@@ -67,15 +68,20 @@
 			]
 		},
 		{
-			"amplitudefactor" : 0.68911367654800415,
-			"instrumentindex" : 43,
+			"amplitudefactor" : 0.97339904308319092,
+			"instrumentindex" : 0,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
+			"presetindex" : null,
 			"quickpresets" : 
 			[
 				0,
-				44,
-				43
+				4,
+				7,
+				8,
+				9,
+				3,
+				14
 			]
 		}
 	],
@@ -98,8 +104,8 @@
 		},
 		{
 			"instrumentindex" : 8,
-			"name" : "Pteq Bechstein",
-			"subdir" : "state_iy7iu9"
+			"name" : "Clav Wah",
+			"subdir" : "state_5OVTWh"
 		},
 		{
 			"instrumentindex" : 4,
@@ -119,16 +125,48 @@
 		{
 			"instrumentindex" : 8,
 			"name" : "Pteq Rhodes",
-			"subdir" : "state_WW60qm"
+			"subdir" : "state_g7jxRw"
 		},
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
+		{
+			"instrumentindex" : 8,
+			"name" : "Pteq Wurli",
+			"subdir" : "state_v9tm0B"
+		},
+		{
+			"instrumentindex" : 8,
+			"name" : "Pteq Stway D",
+			"subdir" : "state_mhhLxH"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "FM piano",
+			"subdir" : "state_m0SyrA"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "FM piano + strings",
+			"subdir" : "state_gIJJGR"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Funky FM pno",
+			"subdir" : "state_lO2QV8"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Warm Strings",
+			"subdir" : "state_lTEjOA"
+		},
+		{
+			"instrumentindex" : 8,
+			"name" : "Pteq Stw Headphones",
+			"subdir" : "state_j77Vt7"
+		},
+		{
+			"instrumentindex" : 8,
+			"name" : "Clav",
+			"subdir" : "state_7Tk4Kx"
+		},
 		null,
 		null,
 		null,
@@ -242,10 +280,10 @@
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.023713739588856697,
+		"mixlevel" : 0.0053088455460965633,
 		"pluginuri" : "https://github.com/michaelwillis/dragonfly-reverb",
 		"presetdir" : "state_RHipLN",
 		"showgui" : false
 	},
-	"showui" : false
+	"showui" : true
 }
