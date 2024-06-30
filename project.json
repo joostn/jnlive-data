@@ -1,61 +1,62 @@
 {
-	"focusedpart" : 1,
 	"instruments" : 
 	[
 		{
 			"lv2uri" : "http://gareus.org/oss/lv2/b_synth",
 			"name" : "setBfree DSP Tonewheel Organ",
+			"parameters" : [],
 			"shared" : true
 		},
 		{
 			"lv2uri" : "https://github.com/asb2m10/dexed",
 			"name" : "Dexed",
+			"parameters" : [],
 			"shared" : false
 		},
 		{
 			"lv2uri" : "https://github.com/brummer10/Fluida.lv2",
 			"name" : "Fluida",
+			"parameters" : [],
 			"shared" : false
 		},
 		{
 			"lv2uri" : "http://sfztools.github.io/sfizz",
 			"name" : "sfizz",
+			"parameters" : [],
 			"shared" : false
 		},
 		{
 			"lv2uri" : "http://yoshimi.sourceforge.net/lv2_plugin",
 			"name" : "Yoshimi",
+			"parameters" : [],
 			"shared" : false
 		},
 		{
 			"lv2uri" : "https://thewavewarden.com/odin2",
 			"name" : "Odin2",
-			"shared" : false
-		},
-		{
-			"lv2uri" : "http://drobilla.net/plugins/mda/EPiano",
-			"name" : "MDA ePiano",
+			"parameters" : [],
 			"shared" : false
 		},
 		{
 			"lv2uri" : "https://surge-synthesizer.github.io/lv2/surge-xt",
 			"name" : "Surge XT",
+			"parameters" : [],
 			"shared" : false
 		},
 		{
 			"lv2uri" : "https://www.modartt.com/lv2/Pianoteq8",
 			"name" : "Pianoteq 8",
+			"parameters" : [],
 			"shared" : false
 		}
 	],
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.66834384202957153,
-			"instrumentindex" : 8,
+			"amplitudefactor" : 0.21134887635707855,
+			"instrumentindex" : 22,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : null,
 			"quickpresets" : 
 			[
 				0,
@@ -63,13 +64,13 @@
 				32,
 				49,
 				6,
-				3,
+				47,
 				7
 			]
 		},
 		{
-			"amplitudefactor" : 0.97339904308319092,
-			"instrumentindex" : 0,
+			"amplitudefactor" : 0.47315117716789246,
+			"instrumentindex" : 14,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
 			"presetindex" : null,
@@ -103,7 +104,7 @@
 			"subdir" : "state_Z3n3je"
 		},
 		{
-			"instrumentindex" : 8,
+			"instrumentindex" : 7,
 			"name" : "Clav Wah",
 			"subdir" : "state_5OVTWh"
 		},
@@ -118,57 +119,65 @@
 			"subdir" : "state_AaQKUH"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Brassy",
 			"subdir" : "state_10DprQ"
 		},
 		{
-			"instrumentindex" : 8,
+			"instrumentindex" : 7,
 			"name" : "Pteq Rhodes",
 			"subdir" : "state_g7jxRw"
 		},
 		{
-			"instrumentindex" : 8,
+			"instrumentindex" : 7,
 			"name" : "Pteq Wurli",
 			"subdir" : "state_v9tm0B"
 		},
 		{
-			"instrumentindex" : 8,
+			"instrumentindex" : 7,
 			"name" : "Pteq Stway D",
 			"subdir" : "state_mhhLxH"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "FM piano",
 			"subdir" : "state_m0SyrA"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "FM piano + strings",
 			"subdir" : "state_gIJJGR"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Funky FM pno",
 			"subdir" : "state_lO2QV8"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Warm Strings",
 			"subdir" : "state_lTEjOA"
 		},
 		{
-			"instrumentindex" : 8,
+			"instrumentindex" : 7,
 			"name" : "Pteq Stw Headphones",
 			"subdir" : "state_j77Vt7"
 		},
 		{
-			"instrumentindex" : 8,
+			"instrumentindex" : 7,
 			"name" : "Clav",
 			"subdir" : "state_7Tk4Kx"
 		},
-		null,
-		null,
+		{
+			"instrumentindex" : 0,
+			"name" : "Organ 1",
+			"subdir" : "state_vjPoOh"
+		},
+		{
+			"instrumentindex" : 3,
+			"name" : "SS Samples",
+			"subdir" : "state_jkhJeI"
+		},
 		null,
 		null,
 		null,
@@ -258,32 +267,30 @@
 			"subdir" : "state_OVYAco"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Banter",
 			"subdir" : "state_BUaKtQ"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Butter",
 			"subdir" : "state_o4BpgR"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Toto brass",
 			"subdir" : "state_p8bRi2"
 		},
 		{
-			"instrumentindex" : 7,
+			"instrumentindex" : 6,
 			"name" : "Cyber flute",
 			"subdir" : "state_6TRsQH"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.0053088455460965633,
+		"mixlevel" : 0.037161901593208313,
 		"pluginuri" : "https://github.com/michaelwillis/dragonfly-reverb",
-		"presetdir" : "state_RHipLN",
-		"showgui" : false
-	},
-	"showui" : true
+		"presetdir" : "state_RHipLN"
+	}
 }

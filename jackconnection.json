@@ -3,10 +3,15 @@
 		[
 			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 2:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
 			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 3:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
+			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 4:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
 			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 at usb-0000:05:00-4-1- high speed:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1"
 		],
 		[
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 at usb-0000:05:00-4-1- high speed:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 at usb-0000:05:00-4-1- high speed:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
+			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 2:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
+			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 3:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
+			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 4:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
+
 		]
 	],
 	"audiooutputs" : 
