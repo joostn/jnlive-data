@@ -53,10 +53,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.21134887635707855,
-			"instrumentindex" : 22,
+			"amplitudefactor" : 0.28183823823928833,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
+			"presetindex" : 47,
 			"quickpresets" : 
 			[
 				0,
@@ -65,24 +66,29 @@
 				49,
 				6,
 				47,
-				7
+				7,
+				17
 			]
 		},
 		{
-			"amplitudefactor" : 0.47315117716789246,
-			"instrumentindex" : 14,
+			"amplitudefactor" : 0.31622767448425293,
+			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : null,
+			"presetindex" : 9,
 			"quickpresets" : 
 			[
 				0,
-				4,
+				9,
 				7,
 				8,
-				9,
+				15,
 				3,
-				14
+				43,
+				23,
+				5,
+				13,
+				33
 			]
 		}
 	],
@@ -125,8 +131,8 @@
 		},
 		{
 			"instrumentindex" : 7,
-			"name" : "Pteq Rhodes",
-			"subdir" : "state_g7jxRw"
+			"name" : "Pteq Rhodes 1",
+			"subdir" : "state_Gsvevg"
 		},
 		{
 			"instrumentindex" : 7,
@@ -187,8 +193,16 @@
 			"name" : "Odin clav",
 			"subdir" : "state_gH51r8"
 		},
-		null,
-		null,
+		{
+			"instrumentindex" : 2,
+			"name" : "Ah (ml)",
+			"subdir" : "state_XO0YM4"
+		},
+		{
+			"instrumentindex" : 2,
+			"name" : "Slap bass",
+			"subdir" : "state_T52aMp"
+		},
 		null,
 		null,
 		null,
@@ -252,9 +266,9 @@
 			"subdir" : "state_WIRKFf"
 		},
 		{
-			"instrumentindex" : 3,
-			"name" : "SFZ Rhodes",
-			"subdir" : "state_FGWVUC"
+			"instrumentindex" : 7,
+			"name" : "Rhodes Phaser",
+			"subdir" : "state_ZQ6KTi"
 		},
 		{
 			"instrumentindex" : 2,
@@ -274,7 +288,7 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Butter",
-			"subdir" : "state_o4BpgR"
+			"subdir" : "state_lC1FuD"
 		},
 		{
 			"instrumentindex" : 6,
@@ -289,8 +303,8 @@
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.037161901593208313,
-		"pluginuri" : "https://github.com/michaelwillis/dragonfly-reverb",
-		"presetdir" : "state_RHipLN"
+		"mixlevel" : 0.21134898066520691,
+		"pluginuri" : "urn:juce:TalReverb3",
+		"presetdir" : "state_uY77iY"
 	}
 }

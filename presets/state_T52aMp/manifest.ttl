@@ -7,6 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <state.ttl>
-	lv2:appliesTo <http://sfztools.github.io/sfizz> ;
+	lv2:appliesTo <https://github.com/brummer10/Fluida.lv2> ;
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> .
