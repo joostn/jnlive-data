@@ -2,48 +2,56 @@
 	"instruments" : 
 	[
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "http://gareus.org/oss/lv2/b_synth",
 			"name" : "setBfree DSP Tonewheel Organ",
 			"parameters" : [],
 			"shared" : true
 		},
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "https://github.com/asb2m10/dexed",
 			"name" : "Dexed",
 			"parameters" : [],
 			"shared" : false
 		},
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "https://github.com/brummer10/Fluida.lv2",
 			"name" : "Fluida",
 			"parameters" : [],
 			"shared" : false
 		},
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "http://sfztools.github.io/sfizz",
 			"name" : "sfizz",
 			"parameters" : [],
 			"shared" : false
 		},
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "http://yoshimi.sourceforge.net/lv2_plugin",
 			"name" : "Yoshimi",
 			"parameters" : [],
 			"shared" : false
 		},
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "https://thewavewarden.com/odin2",
 			"name" : "Odin2",
 			"parameters" : [],
 			"shared" : false
 		},
 		{
+			"hasvocoder" : true,
 			"lv2uri" : "https://surge-synthesizer.github.io/lv2/surge-xt",
 			"name" : "Surge XT",
 			"parameters" : [],
 			"shared" : false
 		},
 		{
+			"hasvocoder" : false,
 			"lv2uri" : "https://www.modartt.com/lv2/Pianoteq8",
 			"name" : "Pianoteq 8",
 			"parameters" : [],
@@ -53,11 +61,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.28183823823928833,
+			"amplitudefactor" : 0.63095718622207642,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 47,
+			"presetindex" : 25,
 			"quickpresets" : 
 			[
 				0,
@@ -71,11 +79,11 @@
 			]
 		},
 		{
-			"amplitudefactor" : 0.31622767448425293,
+			"amplitudefactor" : 0.44668346643447876,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 9,
+			"presetindex" : 43,
 			"quickpresets" : 
 			[
 				0,
@@ -203,7 +211,11 @@
 			"name" : "Slap bass",
 			"subdir" : "state_T52aMp"
 		},
-		null,
+		{
+			"instrumentindex" : 6,
+			"name" : "Vocoder1",
+			"subdir" : "state_sf5oy9"
+		},
 		null,
 		null,
 		null,
@@ -303,7 +315,7 @@
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.21134898066520691,
+		"mixlevel" : 0.035481356084346771,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
 	}

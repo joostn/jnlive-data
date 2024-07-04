@@ -1,37 +1,39 @@
 {
 	"midiinputs": [
 		[
-			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 2:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
-			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 3:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
-			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 4:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 at usb-0000:05:00-4-1- high speed:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1"
+			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1"
 		],
 		[
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 at usb-0000:05:00-4-1- high speed:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
-			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 2:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
-			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 3:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
-			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 4:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
-
+			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
 		]
 	],
 	"audiooutputs" : 
 	[
-		["Family 17h/19h HD Audio Controller Analog Stereo:playback_FL"],
-		["Family 17h/19h HD Audio Controller Analog Stereo:playback_FR"]
+		[
+			"Family 17h/19h HD Audio Controller Analog Stereo:playback_FL",
+			"Soundcraft Si MADI combo card Multichannel:playback_AUX0"
+		],
+		[
+			"Family 17h/19h HD Audio Controller Analog Stereo:playback_FR",
+			"Soundcraft Si MADI combo card Multichannel:playback_AUX1"
+		]
+	],
+	"vocoderinput": [
+		"Soundcraft Si MADI combo card Multichannel:capture_AUX18"
 	],
 	"controllermidiports": [
 		{
 			"id": "conspiracy_in",
 			"device": [
-				"Midi-Bridge:Conspiracy 2:(capture_0) Conspiracy MIDI 1",
-				"Midi-Bridge:Conspiracy 3:(capture_0) Conspiracy MIDI 1"
+				"Midi-Bridge:Conspiracy *:(capture_0) Conspiracy MIDI 1",
 			]
 		},
 		{
 			"id": "conspiracy_out",
 			"device": [
-				"Midi-Bridge:Conspiracy 2:(playback_0) Conspiracy MIDI 1",
-				"Midi-Bridge:Conspiracy 3:(playback_0) Conspiracy MIDI 1"
+				"Midi-Bridge:Conspiracy *:(playback_0) Conspiracy MIDI 1"
 			]
 		}
 	]
