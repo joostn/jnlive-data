@@ -89,10 +89,10 @@
 		},
 		{
 			"amplitudefactor" : 0.28183823823928833,
-			"instrumentindex" : 6,
+			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 53,
+			"presetindex" : 8,
 			"quickpresets" : 
 			[
 				0,
@@ -390,7 +390,7 @@
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.039810735732316971,
+		"mixlevel" : 0.023713739588856697,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
 	}
