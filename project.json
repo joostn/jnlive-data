@@ -61,11 +61,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.1412537693977356,
-			"instrumentindex" : 2,
+			"amplitudefactor" : 0.21134893596172333,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 18,
+			"presetindex" : 47,
 			"quickpresets" : 
 			[
 				0,
@@ -76,15 +76,23 @@
 				47,
 				7,
 				17,
-				25
+				25,
+				57,
+				30,
+				46,
+				52,
+				21,
+				47,
+				49,
+				53
 			]
 		},
 		{
-			"amplitudefactor" : 0.84139519929885864,
-			"instrumentindex" : 7,
+			"amplitudefactor" : 0.28183823823928833,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 9,
+			"presetindex" : 53,
 			"quickpresets" : 
 			[
 				0,
@@ -97,7 +105,13 @@
 				23,
 				5,
 				13,
-				33
+				33,
+				20,
+				29,
+				null,
+				null,
+				null,
+				53
 			]
 		}
 	],
@@ -196,11 +210,23 @@
 		{
 			"instrumentindex" : 2,
 			"name" : "Bottle blow",
-			"subdir" : "state_TlRq3r"
+			"subdir" : "state_X7LTjc"
 		},
-		null,
-		null,
-		null,
+		{
+			"instrumentindex" : 6,
+			"name" : "Chameleon",
+			"subdir" : "state_pLZev5"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Choir Pad",
+			"subdir" : "state_LnvtHJ"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Flawed science",
+			"subdir" : "state_2Epmtr"
+		},
 		{
 			"instrumentindex" : 5,
 			"name" : "Odin clav",
@@ -222,10 +248,26 @@
 			"subdir" : "state_sf5oy9"
 		},
 		null,
-		null,
-		null,
-		null,
-		null,
+		{
+			"instrumentindex" : 6,
+			"name" : "Bad childhood",
+			"subdir" : "state_74rscu"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Clean Shit",
+			"subdir" : "state_LkqxQN"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Chowning",
+			"subdir" : "state_IvMVVW"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Cray",
+			"subdir" : "state_OfYy3R"
+		},
 		null,
 		{
 			"instrumentindex" : 4,
@@ -316,11 +358,39 @@
 			"instrumentindex" : 6,
 			"name" : "Cyber flute",
 			"subdir" : "state_6TRsQH"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "1804",
+			"subdir" : "state_ZRhGXw"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Boss",
+			"subdir" : "state_zETuws"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Distortionworks",
+			"subdir" : "state_6YdNhF"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Quote",
+			"subdir" : "state_MISe5L"
+		},
+		null,
+		null,
+		null,
+		{
+			"instrumentindex" : 6,
+			"name" : "Fairy",
+			"subdir" : "state_RaoUnx"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.056234158575534821,
+		"mixlevel" : 0.039810735732316971,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
 	}

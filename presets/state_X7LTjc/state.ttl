@@ -47,5 +47,5 @@
 				"15"^^xsd:int
 			)
 		] ;
-		<https://github.com/brummer10/Fluida.lv2#gain> "0.2"^^xsd:float
+		<https://github.com/brummer10/Fluida.lv2#gain> "1.19999921"^^xsd:float
 	] .
