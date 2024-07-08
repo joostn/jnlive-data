@@ -88,11 +88,11 @@
 			]
 		},
 		{
-			"amplitudefactor" : 0.28183823823928833,
+			"amplitudefactor" : 0.089125074446201324,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 8,
+			"presetindex" : 9,
 			"quickpresets" : 
 			[
 				0,
@@ -245,7 +245,7 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Vocoder1",
-			"subdir" : "state_sf5oy9"
+			"subdir" : "state_8kon0V"
 		},
 		null,
 		{
