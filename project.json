@@ -61,11 +61,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.21134893596172333,
+			"amplitudefactor" : 0.11885026097297668,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 47,
+			"presetindex" : 53,
 			"quickpresets" : 
 			[
 				0,
@@ -88,7 +88,7 @@
 			]
 		},
 		{
-			"amplitudefactor" : 0.089125074446201324,
+			"amplitudefactor" : 0.15848930180072784,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
