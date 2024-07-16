@@ -61,11 +61,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.11885026097297668,
-			"instrumentindex" : 6,
+			"amplitudefactor" : 0.74989438056945801,
+			"instrumentindex" : 0,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 53,
+			"presetindex" : 0,
 			"quickpresets" : 
 			[
 				0,
@@ -84,15 +84,19 @@
 				21,
 				47,
 				49,
-				53
+				53,
+				27,
+				37,
+				51,
+				61
 			]
 		},
 		{
-			"amplitudefactor" : 0.15848930180072784,
+			"amplitudefactor" : 0.19952620565891266,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 9,
+			"presetindex" : 14,
 			"quickpresets" : 
 			[
 				0,
@@ -111,7 +115,22 @@
 				null,
 				null,
 				null,
-				53
+				53,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				54,
+				60,
+				58,
+				43,
+				null,
+				null,
+				null,
+				14
 			]
 		}
 	],
@@ -245,7 +264,7 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Vocoder1",
-			"subdir" : "state_8kon0V"
+			"subdir" : "state_vdKY0i"
 		},
 		null,
 		{
@@ -379,18 +398,38 @@
 			"name" : "Quote",
 			"subdir" : "state_MISe5L"
 		},
-		null,
+		{
+			"instrumentindex" : 7,
+			"name" : "mk1 amped",
+			"subdir" : "state_4gHeBg"
+		},
 		null,
 		null,
 		{
 			"instrumentindex" : 6,
 			"name" : "Fairy",
 			"subdir" : "state_RaoUnx"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "mk2 jazzy",
+			"subdir" : "state_ul3dHR"
+		},
+		null,
+		{
+			"instrumentindex" : 7,
+			"name" : "m1 overdriven",
+			"subdir" : "state_j8shdf"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "bass 80s",
+			"subdir" : "state_HMGKhU"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.023713739588856697,
+		"mixlevel" : 0.017782796174287796,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
 	}
