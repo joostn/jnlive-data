@@ -6,66 +6,66 @@
 			"lv2uri" : "http://gareus.org/oss/lv2/b_synth",
 			"name" : "setBfree DSP Tonewheel Organ",
 			"parameters" : [],
-			"shared" : true
+			"ishammond" : true
 		},
 		{
 			"hasvocoder" : false,
 			"lv2uri" : "https://github.com/asb2m10/dexed",
 			"name" : "Dexed",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		},
 		{
 			"hasvocoder" : false,
 			"lv2uri" : "https://github.com/brummer10/Fluida.lv2",
 			"name" : "Fluida",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		},
 		{
 			"hasvocoder" : false,
 			"lv2uri" : "http://sfztools.github.io/sfizz",
 			"name" : "sfizz",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		},
 		{
 			"hasvocoder" : false,
 			"lv2uri" : "http://yoshimi.sourceforge.net/lv2_plugin",
 			"name" : "Yoshimi",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		},
 		{
 			"hasvocoder" : false,
 			"lv2uri" : "https://thewavewarden.com/odin2",
 			"name" : "Odin2",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		},
 		{
 			"hasvocoder" : true,
 			"lv2uri" : "https://surge-synthesizer.github.io/lv2/surge-xt",
 			"name" : "Surge XT",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		},
 		{
 			"hasvocoder" : false,
 			"lv2uri" : "https://www.modartt.com/lv2/Pianoteq8",
 			"name" : "Pianoteq 8",
 			"parameters" : [],
-			"shared" : false
+			"ishammond" : false
 		}
 	],
 	"parts" : 
 	[
 		{
 			"amplitudefactor" : 0.74989438056945801,
-			"instrumentindex" : 0,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 0,
+			"presetindex" : 27,
 			"quickpresets" : 
 			[
 				0,
