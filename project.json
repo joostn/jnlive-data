@@ -3,59 +3,101 @@
 	[
 		{
 			"hasvocoder" : false,
+			"ishammond" : true,
 			"lv2uri" : "http://gareus.org/oss/lv2/b_synth",
 			"name" : "setBfree DSP Tonewheel Organ",
-			"parameters" : [],
-			"ishammond" : true
+			"parameters" : []
 		},
 		{
 			"hasvocoder" : false,
+			"ishammond" : false,
 			"lv2uri" : "https://github.com/asb2m10/dexed",
 			"name" : "Dexed",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : []
 		},
 		{
 			"hasvocoder" : false,
+			"ishammond" : false,
 			"lv2uri" : "https://github.com/brummer10/Fluida.lv2",
 			"name" : "Fluida",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : []
 		},
 		{
 			"hasvocoder" : false,
+			"ishammond" : false,
 			"lv2uri" : "http://sfztools.github.io/sfizz",
 			"name" : "sfizz",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : []
 		},
 		{
 			"hasvocoder" : false,
+			"ishammond" : false,
 			"lv2uri" : "http://yoshimi.sourceforge.net/lv2_plugin",
 			"name" : "Yoshimi",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : []
 		},
 		{
 			"hasvocoder" : false,
+			"ishammond" : false,
 			"lv2uri" : "https://thewavewarden.com/odin2",
 			"name" : "Odin2",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : []
 		},
 		{
 			"hasvocoder" : true,
+			"ishammond" : false,
 			"lv2uri" : "https://surge-synthesizer.github.io/lv2/surge-xt",
 			"name" : "Surge XT",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 0,
+					"label" : "Macro 1"
+				},
+				{
+					"ccnum" : 42,
+					"initialvalue" : 0,
+					"label" : "Macro 2"
+				},
+				{
+					"ccnum" : 43,
+					"initialvalue" : 0,
+					"label" : "Macro 3"
+				},
+				{
+					"ccnum" : 44,
+					"initialvalue" : 0,
+					"label" : "Macro 4"
+				},
+				{
+					"ccnum" : 45,
+					"initialvalue" : 0,
+					"label" : "Macro 5"
+				},
+				{
+					"ccnum" : 46,
+					"initialvalue" : 0,
+					"label" : "Macro 6"
+				},
+				{
+					"ccnum" : 47,
+					"initialvalue" : 0,
+					"label" : "Macro 7"
+				},
+				{
+					"ccnum" : 48,
+					"initialvalue" : 0,
+					"label" : "Macro 8"
+				}
+			]
 		},
 		{
 			"hasvocoder" : false,
+			"ishammond" : false,
 			"lv2uri" : "https://www.modartt.com/lv2/Pianoteq8",
 			"name" : "Pianoteq 8",
-			"parameters" : [],
-			"ishammond" : false
+			"parameters" : []
 		}
 	],
 	"parts" : 
@@ -65,7 +107,7 @@
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 27,
+			"presetindex" : 47,
 			"quickpresets" : 
 			[
 				0,
