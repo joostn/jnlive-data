@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.74989438056945801,
+			"amplitudefactor" : 0.18836492300033569,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 50,
+			"presetindex" : 47,
 			"quickpresets" : 
 			[
 				0,
@@ -130,11 +130,16 @@
 				27,
 				37,
 				51,
-				61
+				61,
+				62,
+				64,
+				65,
+				14,
+				63
 			]
 		},
 		{
-			"amplitudefactor" : 0.19952620565891266,
+			"amplitudefactor" : 0.2985382080078125,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
@@ -181,268 +186,328 @@
 		{
 			"instrumentindex" : 0,
 			"name" : "Orgel",
+			"overrideparameters" : null,
 			"subdir" : "state_cvUtWQ"
 		},
 		{
 			"instrumentindex" : 1,
 			"name" : "ARP2600",
+			"overrideparameters" : null,
 			"subdir" : "state_czM4lk"
 		},
 		{
 			"instrumentindex" : 1,
 			"name" : "FM clav",
+			"overrideparameters" : null,
 			"subdir" : "state_Z3n3je"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Clav Wah",
+			"overrideparameters" : null,
 			"subdir" : "state_5OVTWh"
 		},
 		{
 			"instrumentindex" : 4,
 			"name" : "yoshimi 1",
+			"overrideparameters" : null,
 			"subdir" : "state_DYpWIe"
 		},
 		{
 			"instrumentindex" : 4,
 			"name" : "Ahh",
+			"overrideparameters" : null,
 			"subdir" : "state_AaQKUH"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Brassy",
+			"overrideparameters" : null,
 			"subdir" : "state_10DprQ"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Pteq Rhodes 1",
+			"overrideparameters" : null,
 			"subdir" : "state_Gsvevg"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Pteq Wurli",
+			"overrideparameters" : null,
 			"subdir" : "state_v9tm0B"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Pteq Stway D",
+			"overrideparameters" : null,
 			"subdir" : "state_mhhLxH"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "FM piano",
+			"overrideparameters" : null,
 			"subdir" : "state_m0SyrA"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "FM piano + strings",
+			"overrideparameters" : null,
 			"subdir" : "state_gIJJGR"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Funky FM pno",
+			"overrideparameters" : null,
 			"subdir" : "state_lO2QV8"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Warm Strings",
+			"overrideparameters" : null,
 			"subdir" : "state_lTEjOA"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Pteq Stw Headphones",
+			"overrideparameters" : null,
 			"subdir" : "state_j77Vt7"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Clav",
+			"overrideparameters" : null,
 			"subdir" : "state_7Tk4Kx"
 		},
 		{
 			"instrumentindex" : 0,
 			"name" : "Organ 1",
+			"overrideparameters" : null,
 			"subdir" : "state_vjPoOh"
 		},
 		{
 			"instrumentindex" : 3,
 			"name" : "SS Samples",
+			"overrideparameters" : null,
 			"subdir" : "state_jkhJeI"
 		},
 		{
 			"instrumentindex" : 2,
 			"name" : "Bottle blow",
+			"overrideparameters" : null,
 			"subdir" : "state_X7LTjc"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Chameleon",
+			"overrideparameters" : null,
 			"subdir" : "state_pLZev5"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Choir Pad",
+			"overrideparameters" : null,
 			"subdir" : "state_LnvtHJ"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Flawed science",
+			"overrideparameters" : null,
 			"subdir" : "state_2Epmtr"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "Odin clav",
+			"overrideparameters" : null,
 			"subdir" : "state_gH51r8"
 		},
 		{
 			"instrumentindex" : 2,
 			"name" : "Ah (ml)",
+			"overrideparameters" : null,
 			"subdir" : "state_XO0YM4"
 		},
 		{
 			"instrumentindex" : 2,
 			"name" : "Slap bass",
+			"overrideparameters" : null,
 			"subdir" : "state_T52aMp"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Vocoder1",
+			"overrideparameters" : null,
 			"subdir" : "state_vdKY0i"
 		},
 		null,
 		{
 			"instrumentindex" : 6,
 			"name" : "Bad childhood",
+			"overrideparameters" : null,
 			"subdir" : "state_74rscu"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Clean Shit",
+			"overrideparameters" : null,
 			"subdir" : "state_LkqxQN"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Chowning",
+			"overrideparameters" : null,
 			"subdir" : "state_IvMVVW"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Cray",
+			"overrideparameters" : null,
 			"subdir" : "state_OfYy3R"
 		},
 		null,
 		{
 			"instrumentindex" : 4,
 			"name" : "Solo synth 1",
+			"overrideparameters" : null,
 			"subdir" : "state_Ithrz2"
 		},
 		{
 			"instrumentindex" : 4,
 			"name" : "Analog brass",
+			"overrideparameters" : null,
 			"subdir" : "state_PIRyEg"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "Joost odin lead",
+			"overrideparameters" : null,
 			"subdir" : "state_qewUGC"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "Piano pad",
+			"overrideparameters" : null,
 			"subdir" : "state_Kf45Ai"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "odin reset",
+			"overrideparameters" : null,
 			"subdir" : "state_npi8vO"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "bassline",
+			"overrideparameters" : null,
 			"subdir" : "state_0j3SmT"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "ppad3",
+			"overrideparameters" : null,
 			"subdir" : "state_fAQGgC"
 		},
 		{
 			"instrumentindex" : 4,
 			"name" : "Joost reed lead",
+			"overrideparameters" : null,
 			"subdir" : "state_nemgTI"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "Brass pad",
+			"overrideparameters" : null,
 			"subdir" : "state_gHXzBY"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "Dist Guit",
+			"overrideparameters" : null,
 			"subdir" : "state_B8kIg2"
 		},
 		{
 			"instrumentindex" : 5,
 			"name" : "FM clav",
+			"overrideparameters" : null,
 			"subdir" : "state_WIRKFf"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "Rhodes Phaser",
+			"overrideparameters" : null,
 			"subdir" : "state_ZQ6KTi"
 		},
 		{
 			"instrumentindex" : 2,
 			"name" : "Bechstein",
+			"overrideparameters" : null,
 			"subdir" : "state_iZzy6t"
 		},
 		{
 			"instrumentindex" : 2,
 			"name" : "Custom grand",
+			"overrideparameters" : null,
 			"subdir" : "state_OVYAco"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Banter",
+			"overrideparameters" : null,
 			"subdir" : "state_BUaKtQ"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Butter",
-			"subdir" : "state_lC1FuD"
+			"overrideparameters" : null,
+			"subdir" : "state_x6Zmij"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Toto brass",
+			"overrideparameters" : null,
 			"subdir" : "state_p8bRi2"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Cyber flute",
+			"overrideparameters" : null,
 			"subdir" : "state_6TRsQH"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "1804",
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 20,
+					"label" : "Cutoff"
+				}
+			],
 			"subdir" : "state_ZRhGXw"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Boss",
+			"overrideparameters" : null,
 			"subdir" : "state_zETuws"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Distortionworks",
+			"overrideparameters" : null,
 			"subdir" : "state_6YdNhF"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Quote",
+			"overrideparameters" : null,
 			"subdir" : "state_MISe5L"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "mk1 amped",
+			"overrideparameters" : null,
 			"subdir" : "state_4gHeBg"
 		},
 		null,
@@ -450,28 +515,140 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Fairy",
+			"overrideparameters" : null,
 			"subdir" : "state_RaoUnx"
 		},
 		{
 			"instrumentindex" : 7,
 			"name" : "mk2 jazzy",
+			"overrideparameters" : null,
 			"subdir" : "state_ul3dHR"
 		},
 		null,
 		{
 			"instrumentindex" : 7,
 			"name" : "m1 overdriven",
+			"overrideparameters" : null,
 			"subdir" : "state_j8shdf"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "bass 80s",
+			"overrideparameters" : null,
 			"subdir" : "state_HMGKhU"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Joost lead 1",
+			"overrideparameters" : null,
+			"subdir" : "state_7r5cbA"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Joost lead 2",
+			"overrideparameters" : null,
+			"subdir" : "state_wCnrJs"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Joost lead 3",
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 59,
+					"label" : "Cutoff"
+				},
+				{
+					"ccnum" : 42,
+					"initialvalue" : 94,
+					"label" : "Resonance"
+				},
+				{
+					"ccnum" : 43,
+					"initialvalue" : 0,
+					"label" : "Pulse"
+				},
+				{
+					"ccnum" : 44,
+					"initialvalue" : 0,
+					"label" : "5th"
+				},
+				{
+					"ccnum" : 45,
+					"initialvalue" : 0,
+					"label" : "Sync"
+				},
+				{
+					"ccnum" : 46,
+					"initialvalue" : 0,
+					"label" : "Noise"
+				},
+				{
+					"ccnum" : 47,
+					"initialvalue" : 36,
+					"label" : "Echo"
+				},
+				{
+					"ccnum" : 48,
+					"initialvalue" : 0,
+					"label" : "Macro 8"
+				}
+			],
+			"subdir" : "state_yBCaUQ"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Joost Poly 1",
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 59,
+					"label" : "Cutoff"
+				},
+				{
+					"ccnum" : 42,
+					"initialvalue" : 94,
+					"label" : "Resonance"
+				},
+				{
+					"ccnum" : 43,
+					"initialvalue" : 0,
+					"label" : "Pulse"
+				},
+				{
+					"ccnum" : 44,
+					"initialvalue" : 0,
+					"label" : "5th"
+				},
+				{
+					"ccnum" : 45,
+					"initialvalue" : 0,
+					"label" : "Sync"
+				},
+				{
+					"ccnum" : 46,
+					"initialvalue" : 0,
+					"label" : "Noise"
+				},
+				{
+					"ccnum" : 47,
+					"initialvalue" : 36,
+					"label" : "Echo"
+				},
+				{
+					"ccnum" : 48,
+					"initialvalue" : 0,
+					"label" : "Macro 8"
+				}
+			],
+			"subdir" : "state_MG21YU"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.017782796174287796,
+		"mixlevel" : 0.050118729472160339,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
 	}
