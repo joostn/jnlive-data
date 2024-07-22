@@ -52,42 +52,42 @@
 			[
 				{
 					"ccnum" : 41,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 1"
 				},
 				{
 					"ccnum" : 42,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 2"
 				},
 				{
 					"ccnum" : 43,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 3"
 				},
 				{
 					"ccnum" : 44,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 4"
 				},
 				{
 					"ccnum" : 45,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 5"
 				},
 				{
 					"ccnum" : 46,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 6"
 				},
 				{
 					"ccnum" : 47,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 7"
 				},
 				{
 					"ccnum" : 48,
-					"initialvalue" : 0,
+					"initialvalue" : null,
 					"label" : "Macro 8"
 				}
 			]
@@ -107,7 +107,7 @@
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 47,
+			"presetindex" : 50,
 			"quickpresets" : 
 			[
 				0,
