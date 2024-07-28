@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.18836492300033569,
-			"instrumentindex" : 6,
+			"amplitudefactor" : 0.19952629506587982,
+			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 47,
+			"presetindex" : 14,
 			"quickpresets" : 
 			[
 				0,
@@ -135,15 +135,16 @@
 				64,
 				65,
 				14,
-				63
+				63,
+				66
 			]
 		},
 		{
 			"amplitudefactor" : 0.2985382080078125,
-			"instrumentindex" : 7,
+			"instrumentindex" : 0,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 14,
+			"presetindex" : 0,
 			"quickpresets" : 
 			[
 				0,
@@ -644,11 +645,17 @@
 				}
 			],
 			"subdir" : "state_MG21YU"
+		},
+		{
+			"instrumentindex" : 5,
+			"name" : "Odin analog strings",
+			"overrideparameters" : null,
+			"subdir" : "state_tdPOVJ"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.050118729472160339,
+		"mixlevel" : 0.0042169652879238129,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
 	}
