@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.19952629506587982,
-			"instrumentindex" : 7,
+			"amplitudefactor" : 0.31622785329818726,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 14,
+			"presetindex" : 64,
 			"quickpresets" : 
 			[
 				0,
@@ -658,5 +658,6 @@
 		"mixlevel" : 0.0042169652879238129,
 		"pluginuri" : "urn:juce:TalReverb3",
 		"presetdir" : "state_uY77iY"
-	}
+	},
+	"version" : 1
 }

@@ -1,14 +1,4 @@
 {
-	"midiinputs": [
-		[
-			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1"
-		],
-		[
-			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
-		]
-	],
 	"audiooutputs" : 
 	[
 		[
@@ -20,21 +10,38 @@
 			"Soundcraft Si MADI combo card Multichannel:playback_AUX1"
 		]
 	],
-	"vocoderinput": [
-		"Soundcraft Si MADI combo card Multichannel:capture_AUX18"
-	],
-	"controllermidiports": [
+	"buffersize" : 64,
+	"controllermidiports" : 
+	[
 		{
-			"id": "conspiracy_in",
-			"device": [
-				"Midi-Bridge:Conspiracy *:(capture_0) Conspiracy MIDI 1",
-			]
+			"device" : 
+			[
+				"Midi-Bridge:Conspiracy *:(capture_0) Conspiracy MIDI 1"
+			],
+			"id" : "conspiracy_in"
 		},
 		{
-			"id": "conspiracy_out",
-			"device": [
+			"device" : 
+			[
 				"Midi-Bridge:Conspiracy *:(playback_0) Conspiracy MIDI 1"
-			]
+			],
+			"id" : "conspiracy_out"
 		}
+	],
+	"midiinputs" : 
+	[
+		[
+			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1"
+		],
+		[
+			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
+		]
+	],
+	"version" : 1,
+	"vocoderinput" : 
+	[
+		"Soundcraft Si MADI combo card Multichannel:capture_AUX18"
 	]
 }
