@@ -10,7 +10,7 @@
 			"Soundcraft Si MADI combo card Multichannel:playback_AUX1"
 		]
 	],
-	"buffersize" : 64,
+	"buffersize" : 128,
 	"controllermidiports" : 
 	[
 		{

@@ -103,15 +103,15 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.31622785329818726,
+			"amplitudefactor" : 0.47315117716789246,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 64,
+			"presetindex" : 68,
 			"quickpresets" : 
 			[
 				0,
-				22,
+				68,
 				32,
 				49,
 				6,
@@ -136,15 +136,16 @@
 				65,
 				14,
 				63,
-				66
+				66,
+				70
 			]
 		},
 		{
-			"amplitudefactor" : 0.2985382080078125,
-			"instrumentindex" : 0,
+			"amplitudefactor" : 0.44668352603912354,
+			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 0,
+			"presetindex" : 54,
 			"quickpresets" : 
 			[
 				0,
@@ -160,11 +161,11 @@
 				33,
 				20,
 				29,
-				null,
-				null,
-				null,
 				53,
-				null,
+				67,
+				68,
+				53,
+				17,
 				null,
 				null,
 				null,
@@ -224,7 +225,7 @@
 			"instrumentindex" : 6,
 			"name" : "Brassy",
 			"overrideparameters" : null,
-			"subdir" : "state_10DprQ"
+			"subdir" : "state_nWNJLA"
 		},
 		{
 			"instrumentindex" : 7,
@@ -459,8 +460,35 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Butter",
-			"overrideparameters" : null,
-			"subdir" : "state_x6Zmij"
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 64,
+					"label" : "Echo"
+				},
+				{
+					"ccnum" : 42,
+					"initialvalue" : 0,
+					"label" : "Sync"
+				},
+				{
+					"ccnum" : 43,
+					"initialvalue" : 0,
+					"label" : "Cutoff"
+				},
+				{
+					"ccnum" : 44,
+					"initialvalue" : 0,
+					"label" : "Reso"
+				},
+				{
+					"ccnum" : 45,
+					"initialvalue" : 0,
+					"label" : "Drive"
+				}
+			],
+			"subdir" : "state_U7shEN"
 		},
 		{
 			"instrumentindex" : 6,
@@ -471,8 +499,25 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Cyber flute",
-			"overrideparameters" : null,
-			"subdir" : "state_6TRsQH"
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 64,
+					"label" : "Delay time"
+				},
+				{
+					"ccnum" : 42,
+					"initialvalue" : 0,
+					"label" : "Delay lev"
+				},
+				{
+					"ccnum" : 43,
+					"initialvalue" : 0,
+					"label" : "Delay feedback"
+				}
+			],
+			"subdir" : "state_Dsspij"
 		},
 		{
 			"instrumentindex" : 6,
@@ -497,13 +542,25 @@
 			"instrumentindex" : 6,
 			"name" : "Distortionworks",
 			"overrideparameters" : null,
-			"subdir" : "state_6YdNhF"
+			"subdir" : "state_f5RTXX"
 		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Quote",
-			"overrideparameters" : null,
-			"subdir" : "state_MISe5L"
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 46,
+					"label" : "Delay lev"
+				},
+				{
+					"ccnum" : 42,
+					"initialvalue" : 80,
+					"label" : "Delay time"
+				}
+			],
+			"subdir" : "state_3ULFnp"
 		},
 		{
 			"instrumentindex" : 7,
@@ -523,7 +580,7 @@
 			"instrumentindex" : 7,
 			"name" : "mk2 jazzy",
 			"overrideparameters" : null,
-			"subdir" : "state_ul3dHR"
+			"subdir" : "state_DTKaEf"
 		},
 		null,
 		{
@@ -651,13 +708,44 @@
 			"name" : "Odin analog strings",
 			"overrideparameters" : null,
 			"subdir" : "state_tdPOVJ"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Alias piano pad",
+			"overrideparameters" : null,
+			"subdir" : "state_GX1GW5"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Synth clav",
+			"overrideparameters" : null,
+			"subdir" : "state_827a1m"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Vocoder 2",
+			"overrideparameters" : null,
+			"subdir" : "state_t2spzv"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Polyvocoder",
+			"overrideparameters" : 
+			[
+				{
+					"ccnum" : 41,
+					"initialvalue" : 70,
+					"label" : "Noise"
+				}
+			],
+			"subdir" : "state_KLIinH"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.0042169652879238129,
-		"pluginuri" : "urn:juce:TalReverb3",
-		"presetdir" : "state_uY77iY"
+		"mixlevel" : 0.0050118709914386272,
+		"pluginuri" : "urn:juce:TalReverb2",
+		"presetdir" : "state_QmMb1R"
 	},
 	"version" : 1
 }

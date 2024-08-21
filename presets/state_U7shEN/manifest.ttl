@@ -7,6 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <state.ttl>
-	lv2:appliesTo <urn:juce:TalReverb3> ;
+	lv2:appliesTo <https://surge-synthesizer.github.io/lv2/surge-xt> ;
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> .
