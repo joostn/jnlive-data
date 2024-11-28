@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.47315117716789246,
+			"amplitudefactor" : 0.18836487829685211,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 68,
+			"presetindex" : 47,
 			"quickpresets" : 
 			[
 				0,
@@ -137,25 +137,28 @@
 				14,
 				63,
 				66,
-				70
+				70,
+				null,
+				55,
+				13
 			]
 		},
 		{
-			"amplitudefactor" : 0.44668352603912354,
+			"amplitudefactor" : 0.29853838682174683,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 54,
+			"presetindex" : 55,
 			"quickpresets" : 
 			[
 				0,
 				9,
-				7,
+				55,
 				8,
 				15,
 				3,
+				68,
 				43,
-				23,
 				5,
 				13,
 				33,
@@ -165,20 +168,20 @@
 				67,
 				68,
 				53,
-				17,
-				null,
-				null,
-				null,
-				null,
-				null,
-				null,
+				77,
+				75,
+				74,
+				72,
+				71,
+				9,
+				31,
 				54,
 				60,
 				58,
 				43,
+				55,
 				null,
-				null,
-				null,
+				76,
 				14
 			]
 		}
@@ -241,9 +244,9 @@
 		},
 		{
 			"instrumentindex" : 7,
-			"name" : "Pteq Stway D",
+			"name" : "HB Steinway D",
 			"overrideparameters" : null,
-			"subdir" : "state_mhhLxH"
+			"subdir" : "state_e2vtel"
 		},
 		{
 			"instrumentindex" : 6,
@@ -366,7 +369,12 @@
 			"overrideparameters" : null,
 			"subdir" : "state_OfYy3R"
 		},
-		null,
+		{
+			"instrumentindex" : 7,
+			"name" : "Bosend jazz",
+			"overrideparameters" : null,
+			"subdir" : "state_UuwPJt"
+		},
 		{
 			"instrumentindex" : 4,
 			"name" : "Solo synth 1",
@@ -568,7 +576,12 @@
 			"overrideparameters" : null,
 			"subdir" : "state_4gHeBg"
 		},
-		null,
+		{
+			"instrumentindex" : 7,
+			"name" : "Joost EP",
+			"overrideparameters" : null,
+			"subdir" : "state_qXJZun"
+		},
 		null,
 		{
 			"instrumentindex" : 6,
@@ -739,11 +752,53 @@
 				}
 			],
 			"subdir" : "state_KLIinH"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Steinway Prelude",
+			"overrideparameters" : null,
+			"subdir" : "state_j3SmN4"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Petrof Warm",
+			"overrideparameters" : null,
+			"subdir" : "state_p81M3d"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "K2 warm",
+			"overrideparameters" : null,
+			"subdir" : "state_tCQVvJ"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "YC5 jazz",
+			"overrideparameters" : null,
+			"subdir" : "state_2mGH6O"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "NY steinway prelude",
+			"overrideparameters" : null,
+			"subdir" : "state_VAktnR"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Stway Reverb",
+			"overrideparameters" : null,
+			"subdir" : "state_w7yrph"
+		},
+		{
+			"instrumentindex" : 7,
+			"name" : "Kawai Warm",
+			"overrideparameters" : null,
+			"subdir" : "state_JkiB3V"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.0050118709914386272,
+		"mixlevel" : 0.066834352910518646,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
