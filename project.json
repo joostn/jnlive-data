@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.18836487829685211,
+			"amplitudefactor" : 0.50118714570999146,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 47,
+			"presetindex" : 78,
 			"quickpresets" : 
 			[
 				0,
@@ -116,7 +116,7 @@
 				49,
 				6,
 				47,
-				7,
+				78,
 				17,
 				25,
 				57,
@@ -144,7 +144,7 @@
 			]
 		},
 		{
-			"amplitudefactor" : 0.29853838682174683,
+			"amplitudefactor" : 0.59566235542297363,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
@@ -152,7 +152,7 @@
 			"quickpresets" : 
 			[
 				0,
-				9,
+				77,
 				55,
 				8,
 				15,
@@ -794,11 +794,17 @@
 			"name" : "Kawai Warm",
 			"overrideparameters" : null,
 			"subdir" : "state_JkiB3V"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Piew",
+			"overrideparameters" : null,
+			"subdir" : "state_YvlB6W"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.066834352910518646,
+		"mixlevel" : 0.023713722825050354,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
