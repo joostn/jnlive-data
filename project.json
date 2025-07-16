@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.50118714570999146,
-			"instrumentindex" : 6,
+			"amplitudefactor" : 0.35481312870979309,
+			"instrumentindex" : 3,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 78,
+			"presetindex" : 17,
 			"quickpresets" : 
 			[
 				0,
@@ -120,7 +120,7 @@
 				17,
 				25,
 				57,
-				30,
+				79,
 				46,
 				52,
 				21,
@@ -140,15 +140,17 @@
 				70,
 				null,
 				55,
-				13
+				13,
+				null,
+				79
 			]
 		},
 		{
-			"amplitudefactor" : 0.59566235542297363,
+			"amplitudefactor" : 0.35481348633766174,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 55,
+			"presetindex" : 77,
 			"quickpresets" : 
 			[
 				0,
@@ -342,7 +344,7 @@
 			"instrumentindex" : 6,
 			"name" : "Vocoder1",
 			"overrideparameters" : null,
-			"subdir" : "state_vdKY0i"
+			"subdir" : "state_DxnwwR"
 		},
 		null,
 		{
@@ -743,15 +745,8 @@
 		{
 			"instrumentindex" : 6,
 			"name" : "Polyvocoder",
-			"overrideparameters" : 
-			[
-				{
-					"ccnum" : 41,
-					"initialvalue" : 70,
-					"label" : "Noise"
-				}
-			],
-			"subdir" : "state_KLIinH"
+			"overrideparameters" : null,
+			"subdir" : "state_Y4u2bh"
 		},
 		{
 			"instrumentindex" : 7,
@@ -800,11 +795,17 @@
 			"name" : "Piew",
 			"overrideparameters" : null,
 			"subdir" : "state_YvlB6W"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Craysolo",
+			"overrideparameters" : null,
+			"subdir" : "state_vZs4rT"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.023713722825050354,
+		"mixlevel" : 0.016788041219115257,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
