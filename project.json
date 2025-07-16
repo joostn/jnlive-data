@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.9440608024597168,
+			"amplitudefactor" : 0.099999979138374329,
 			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 25,
+			"presetindex" : 82,
 			"quickpresets" : 
 			[
 				0,
@@ -142,15 +142,18 @@
 				55,
 				13,
 				null,
-				79
+				79,
+				80,
+				81,
+				82
 			]
 		},
 		{
-			"amplitudefactor" : 0.35481348633766174,
+			"amplitudefactor" : 0.21134896576404572,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 3,
+			"presetindex" : 55,
 			"quickpresets" : 
 			[
 				0,
@@ -801,11 +804,29 @@
 			"name" : "Craysolo",
 			"overrideparameters" : null,
 			"subdir" : "state_vZs4rT"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Clean Shit",
+			"overrideparameters" : null,
+			"subdir" : "state_Ayuc8W"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Cottage",
+			"overrideparameters" : null,
+			"subdir" : "state_zisG8R"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "FM rock",
+			"overrideparameters" : null,
+			"subdir" : "state_nEJvYg"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.02238721027970314,
+		"mixlevel" : 0.084139496088027954,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
