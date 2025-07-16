@@ -2,15 +2,13 @@
 	"audiooutputs" : 
 	[
 		[
-			"Family 17h/19h HD Audio Controller Analog Stereo:playback_FL",
 			"Soundcraft Si MADI combo card Multichannel:playback_AUX0"
 		],
 		[
-			"Family 17h/19h HD Audio Controller Analog Stereo:playback_FR",
 			"Soundcraft Si MADI combo card Multichannel:playback_AUX1"
 		]
 	],
-	"buffersize" : 128,
+	"buffersize" : 64,
 	"controllermidiports" : 
 	[
 		{
@@ -32,11 +30,13 @@
 	[
 		[
 			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1"
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S61 MK2 *:(capture_0) KOMPLETE KONTROL S61 MK2 MIDI 1",
+			"Midi-Bridge:KOMPLETE KONTROL S61 MK2 MIDI 1 (capture)"
 		],
 		[
 			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
-			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1"
+			"Midi-Bridge:Native Instruments KOMPLETE KONTROL S88 MK2 *:(capture_0) KOMPLETE KONTROL S88 MK2 MIDI 1",
+			"Midi-Bridge:KOMPLETE KONTROL S88 MK2 MIDI 1 (capture)"
 		]
 	],
 	"version" : 1,

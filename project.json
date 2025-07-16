@@ -103,11 +103,11 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.35481312870979309,
-			"instrumentindex" : 3,
+			"amplitudefactor" : 0.9440608024597168,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 17,
+			"presetindex" : 25,
 			"quickpresets" : 
 			[
 				0,
@@ -150,7 +150,7 @@
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 77,
+			"presetindex" : 3,
 			"quickpresets" : 
 			[
 				0,
@@ -805,7 +805,7 @@
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.016788041219115257,
+		"mixlevel" : 0.02238721027970314,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
