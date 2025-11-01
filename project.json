@@ -103,16 +103,16 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.099999979138374329,
-			"instrumentindex" : 6,
+			"amplitudefactor" : 0.18836486339569092,
+			"instrumentindex" : 3,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 82,
+			"presetindex" : 17,
 			"quickpresets" : 
 			[
 				0,
 				68,
-				32,
+				53,
 				49,
 				6,
 				47,
@@ -128,7 +128,7 @@
 				49,
 				53,
 				27,
-				37,
+				83,
 				51,
 				61,
 				62,
@@ -149,15 +149,15 @@
 			]
 		},
 		{
-			"amplitudefactor" : 0.21134896576404572,
+			"amplitudefactor" : 0.17782802879810333,
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 55,
+			"presetindex" : 56,
 			"quickpresets" : 
 			[
 				0,
-				77,
+				9,
 				55,
 				8,
 				15,
@@ -185,7 +185,7 @@
 				58,
 				43,
 				55,
-				null,
+				56,
 				76,
 				14
 			]
@@ -587,7 +587,12 @@
 			"overrideparameters" : null,
 			"subdir" : "state_qXJZun"
 		},
-		null,
+		{
+			"instrumentindex" : 7,
+			"name" : "NY steinway jazz",
+			"overrideparameters" : null,
+			"subdir" : "state_tyNJN9"
+		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Fairy",
@@ -822,11 +827,17 @@
 			"name" : "FM rock",
 			"overrideparameters" : null,
 			"subdir" : "state_nEJvYg"
+		},
+		{
+			"instrumentindex" : 6,
+			"name" : "Bass 2",
+			"overrideparameters" : null,
+			"subdir" : "state_zTZU57"
 		}
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.084139496088027954,
+		"mixlevel" : 0.089125089347362518,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
