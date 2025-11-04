@@ -107,7 +107,7 @@
 			"instrumentindex" : 3,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : 17,
+			"presetindex" : null,
 			"quickpresets" : 
 			[
 				0,
