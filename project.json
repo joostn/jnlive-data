@@ -103,18 +103,18 @@
 	"parts" : 
 	[
 		{
-			"amplitudefactor" : 0.18836486339569092,
-			"instrumentindex" : 3,
+			"amplitudefactor" : 0.22387205064296722,
+			"instrumentindex" : 6,
 			"midichannelforsharedinstruments" : 0,
 			"name" : "Upper",
-			"presetindex" : null,
+			"presetindex" : 26,
 			"quickpresets" : 
 			[
 				0,
 				68,
 				53,
 				49,
-				6,
+				26,
 				47,
 				78,
 				17,
@@ -153,7 +153,7 @@
 			"instrumentindex" : 7,
 			"midichannelforsharedinstruments" : 1,
 			"name" : "Lower",
-			"presetindex" : 56,
+			"presetindex" : 55,
 			"quickpresets" : 
 			[
 				0,
@@ -349,7 +349,12 @@
 			"overrideparameters" : null,
 			"subdir" : "state_DxnwwR"
 		},
-		null,
+		{
+			"instrumentindex" : 6,
+			"name" : "Brassy+",
+			"overrideparameters" : null,
+			"subdir" : "state_hX6uX1"
+		},
 		{
 			"instrumentindex" : 6,
 			"name" : "Bad childhood",
@@ -837,7 +842,7 @@
 	],
 	"reverb" : 
 	{
-		"mixlevel" : 0.089125089347362518,
+		"mixlevel" : 0.0070794583298265934,
 		"pluginuri" : "urn:juce:TalReverb2",
 		"presetdir" : "state_QmMb1R"
 	},
