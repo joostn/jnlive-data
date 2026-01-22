@@ -26,6 +26,7 @@
             ln -s "${pianoteq}/lib/lv2/Pianoteq 9.lv2" $out/
             ln -s "${pkgs.surge-XT}/lib/lv2/Surge XT.lv2" $out/
             ln -s "${pkgs.distrho-ports}/lib/lv2/Dexed.lv2" $out/
+            ln -s "${pkgs.distrho-ports}/lib/lv2/TAL-Reverb-2.lv2" $out/
             ln -s "${pkgs.setbfree}/lib/lv2/b_synth" $out/
             ln -s "${pkgs.fluida-lv2}/lib/lv2/Fluida.lv2" $out/
             ln -s "${pkgs.sfizz-ui}/lib/lv2/sfizz.lv2" $out/
