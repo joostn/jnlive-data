@@ -1,0 +1,1 @@
+Joost's personal setup for live keyboard performance using https://github.com/joostn/jnlive
