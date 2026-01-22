@@ -11,7 +11,18 @@ stdenv.mkDerivation rec {
     sha256 = "sha256-lO5kz2aIpJ108L9w2BHnRmq6wQP+6rF0lqifgor8xtM=";
   };
 
-  src = ./pianoteq_setup_v903.tar.xz;
+  src = requireFile {
+    name = "pianoteq_setup_v903.tar.xz";
+    sha256 = "f9a52efc60d349535d91174fb2af953efc3658be32262cda3ff1123229c4fd9e";
+    url = "https://www.modartt.com/pianoteq";
+    message = ''
+      This file is commercial and cannot be downloaded automatically.
+      Please download pianoteq_setup_v903.tar.xz from your Modartt user account
+      and add it to the nix store using:
+
+      nix-store --add-fixed sha256 pianoteq_setup_v903.tar.xz
+    '';
+  };
 
   desktopItems = [
     (makeDesktopItem {
