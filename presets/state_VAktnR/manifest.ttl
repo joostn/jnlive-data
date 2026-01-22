@@ -7,6 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <state.ttl>
-	lv2:appliesTo <https://www.modartt.com/lv2/Pianoteq8> ;
+	lv2:appliesTo <https://www.modartt.com/lv2/Pianoteq9> ;
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> .
