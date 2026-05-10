@@ -32,8 +32,6 @@
             ln -s "${pkgs.sfizz-ui}/lib/lv2/sfizz.lv2" $out/
             ln -s "${pkgs.yoshimi}/lib/lv2/yoshimi.lv2" $out/
             ln -s "${pkgs.odin2}/lib/lv2/Odin2.lv2" $out/
-            ln -s "${pkgs.infamousPlugins}/lib/lv2/*.lv2" $out/
-            touch $out/test.txt
           '';
 
           jnlive-with-plugins = pkgs.stdenv.mkDerivation {
@@ -46,13 +44,12 @@
               mkdir -p $out/share/applications
               cat <<EOF > $out/share/applications/jnlive-withplugins.desktop
               [Desktop Entry]
-              # test!
               Name=jnlive
               Version=0.1.2
               GenericName=LV2 Live Player (with plugis)
               Comment=Software for live playing LV2 instrument plugins
               Icon=audio-x-generic
-              Exec=env GDK_BACKEND=x11 FLTK_SCALING_FACTOR=2.0 LV2_PATH=${lv2-plugins} "${jnlive-app}/bin/jnlive" %F
+              Exec=env GDK_BACKEND=x11 FLTK_SCALING_FACTOR=2.0 LV2_PATH=${lv2-plugins}:${pkgs.infamousPlugins}/lib/lv2 "${jnlive-app}/bin/jnlive" %F
               Terminal=true
               Type=Application
               Categories=AudioVideo;Audio;Midi;Utility;
