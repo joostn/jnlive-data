@@ -33,6 +33,7 @@
             ln -s "${pkgs.yoshimi}/lib/lv2/yoshimi.lv2" $out/
             ln -s "${pkgs.odin2}/lib/lv2/Odin2.lv2" $out/
             ln -s "${pkgs.rubberband}/lib/lv2/rubberband.lv2" $out/
+            ln -s "${pkgs.carla}/lib/lv2/carla.lv2" $out/
           '';
 
           jnlive-with-plugins = pkgs.stdenv.mkDerivation {
