@@ -46,6 +46,7 @@
               mkdir -p $out/share/applications
               cat <<EOF > $out/share/applications/jnlive-withplugins.desktop
               [Desktop Entry]
+              # test!
               Name=jnlive
               Version=0.1.2
               GenericName=LV2 Live Player (with plugis)
