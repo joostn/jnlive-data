@@ -32,6 +32,7 @@
             ln -s "${pkgs.sfizz-ui}/lib/lv2/sfizz.lv2" $out/
             ln -s "${pkgs.yoshimi}/lib/lv2/yoshimi.lv2" $out/
             ln -s "${pkgs.odin2}/lib/lv2/Odin2.lv2" $out/
+            ln -s "${pkgs.infamousPlugins}/lib/lv2/Odin2.lv2" $out/
           '';
 
           jnlive-with-plugins = pkgs.stdenv.mkDerivation {
